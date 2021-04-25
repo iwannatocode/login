@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient( to right, rgb(230, 187, 193), rgb(243, 197, 171));
+}
+form{
+    margin: 70px auto;
+    display: block;
+    height: 450px;
+    width: 400px;
+    border: 1px solid rgb(131, 127, 127);
+    box-shadow: 5px 5px 10px 5px rgb(93, 86, 86);
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    z-index: 2;
+}
+.log{
+    text-align: center;
+    font-size:  25px;
+    margin-top: 10px;
+}
+.lab_user{
+    display: block;
+    text-align: center;
+    margin:  40px auto 0px;
+}
+.lab_password{
+    display: block;
+    text-align: center;
+    margin:  50px auto 0px;
+}
+input{
+    display: block;
+    margin: 10px auto 0px;
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+}
+.password{
+    font-size: 20px;
+}
+.link{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+}
+button{
+    display: block;
+    margin: 35px auto 0px;
+    width: 140px;
+    height: 25px;
+}
+.foto{
+    position: absolute;
+    width: auto;
+    height: 650px;
+    top: 0px;
+    right:  80px;
+    z-index: -1 ;
+}

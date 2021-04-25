@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient( to right, rgb(146, 146, 146), rgb(112, 44, 44));
+}
+form{
+    margin: 70px auto;
+    display: block;
+    height: 450px;
+    width: 400px;
+    border: 1px solid rgb(131, 127, 127);
+    box-shadow: 5px 5px 10px 5px rgba(93, 86, 86, 0.507);
+    background-color: rgba(223, 223, 223, 0.5);
+    border-radius: 15px;
+}
+.lab_user{
+    display: block;
+    text-align: center;
+    margin:  60px auto 0px;
+}
+.lab_password{
+    display: block;
+    text-align: center;
+    margin:  50px auto 0px;
+}
+input{
+    display: block;
+    margin: 10px auto 0px;
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+}
+.password{
+    font-size: 20px;
+}
+
+button{
+    display: block;
+    margin: 75px auto 0px;
+    width: 140px;
+    height: 25px;
+}
